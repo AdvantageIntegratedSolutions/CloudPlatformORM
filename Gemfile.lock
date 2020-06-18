@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     quickbasemapper (2.0.1)
-      gmail (~> 0.4.0)
+      gmail (~> 0.7.0)
       tlsmail
 
 GEM
@@ -12,19 +12,17 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     diff-lcs (1.2.5)
-    gmail (0.4.2)
+    gmail (0.7.1)
       gmail_xoauth (>= 0.3.0)
       mail (>= 2.2.1)
-      mime (>= 0.1)
-    gmail_xoauth (0.4.1)
+    gmail_xoauth (0.4.2)
       oauth (>= 0.3.6)
     i18n (0.6.9)
-    mail (2.6.3)
-      mime-types (>= 1.16, < 3)
-    mime (0.4.2)
-    mime-types (2.6.1)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    mini_mime (1.0.2)
     multi_json (1.8.4)
-    oauth (0.4.7)
+    oauth (0.5.4)
     rake (10.1.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -46,4 +44,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.10.5
+   1.17.2

@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.files        = ["lib/quickbasemapper.rb"]
   s.homepage     = 'http://www.advantagequickbase.com'
   
-  s.add_dependency 'gmail', '~> 0.4.0'
+  s.add_dependency 'gmail', '~> 0.7.0'
   s.add_dependency 'tlsmail'
 end
